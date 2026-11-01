@@ -69,3 +69,14 @@ entities:
       - id: 102
         type: boolean
         name: lock
+
+  - entity: sensor
+    class: power
+    dps:
+      - id: 117
+        type: integer
+        name: sensor
+        unit: W
+        class: measurement
+        mapping:
+          - scale: 10
